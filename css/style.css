@@ -1,0 +1,435 @@
+header .navbar {
+  background-color: white;
+  padding: 25px 0;
+}
+header .headerDiv {
+  padding-top: 17%;
+}
+header .headerDiv h1 {
+  font-size: 50px;
+}
+header .headerDiv p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.header1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/bg.menu.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg.menu.webp);
+  background-attachment: fixed;
+  height: 90vh;
+  margin: 0 80px 80px 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header1 .navbar {
+  background-color: white;
+  padding: 25px 0;
+}
+.header1 .headerDiv {
+  padding-top: 17%;
+}
+.header1 .headerDiv h1 {
+  font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .header1 .headerDiv h1 {
+    font-size: 17px;
+  }
+}
+.header1 .headerDiv p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .header1 .headerDiv p {
+    font-size: 13px;
+  }
+}
+
+.sec1 {
+  margin: 80px;
+}
+.sec1 .project1 {
+  background-image: url(../img/pr1.webp);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+  position: relative;
+}
+.sec1 .project1 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project1:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project2 {
+  background-image: url(../img/pr22.webp);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sec1 .project2 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project2:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project3 {
+  background-image: url(../img/pr3.webp);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+  position: relative;
+}
+.sec1 .project3 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project3:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project4 {
+  background-image: url(../img/pr4.webp);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sec1 .project4 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project4:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project5 {
+  background-image: url(../img/pr5.webp);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+  position: relative;
+}
+.sec1 .project5 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project5:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project6 {
+  background-image: url(../img/pr6.webp);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sec1 .project6 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project6:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project7 {
+  background-image: url(../img/pr7.webp);
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+  position: relative;
+}
+.sec1 .project7 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project7:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .project8 {
+  background-image: url(../img/pr8.webp);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sec1 .project8 .overlayCoL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sec1 .project8:hover .overlayCoL {
+  visibility: visible;
+  opacity: 1;
+}
+.sec1 .sec1col {
+  margin: 35px;
+}
+.sec1 .sec1col1 {
+  margin: 35px 35px 0 0;
+}
+.sec1 .sec1col2 {
+  margin: 35px 0 0 35px;
+}
+.sec1 .overlayCoL span {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sec2 {
+  margin: 70px;
+}
+.sec2 .sec2Col {
+  background-image: url(../img/My\ Desing.webp);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec2 h2 {
+  font-size: 50px;
+}
+.sec2 .sec2Col1 {
+  margin: 220px 120px;
+}
+
+.sec3 {
+  padding: 50px;
+  background-color: rgb(244, 238, 226);
+}
+.sec3 .sec3col1 {
+  background-image: url(../img/but1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 380px;
+  margin: 20px;
+}
+.sec3 .sec3col2 {
+  background-image: url(../img/but2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 380px;
+  margin: 20px;
+}
+.sec3 .sec3col3 {
+  background-image: url(../img/but3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 380px;
+  margin: 20px;
+}
+.sec3 h2 {
+  font-size: 50px;
+}
+.sec3 h5 {
+  font-size: 15px;
+}
+
+.sec4 {
+  margin-top: 100px;
+}
+.sec4 input {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 5px;
+}
+.sec4 button {
+  padding: 5px 25% 5px 25%;
+  border-radius: 0;
+}
+.sec4 input[type=checkbox] {
+  width: 10%;
+}
+
+.header2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/My\ servise.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/My\ servise.webp);
+  background-attachment: fixed;
+  height: 70vh;
+  margin: 0 80px 80px 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header2 h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec5 .diva {
+  display: inline-block;
+  margin-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+.sec5 .Row2 {
+  border-bottom: 1px solid black;
+}
+.sec5 button {
+  border-radius: 0;
+}
+.sec5 a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+}
+.sec5 .tab.active {
+  border: 2px solid ghostwhite;
+}
+.sec5 .tab-content {
+  display: none;
+}
+.sec5 .show {
+  display: block;
+}
+
+.header3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/About.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/About.webp);
+  background-attachment: fixed;
+  height: 65vh;
+  margin: 0 80px 80px 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec6 img {
+  width: 100%;
+}
+.sec6 .texte {
+  padding: 100px 20px 100px 20px;
+}
+.sec6 .texte h5 {
+  margin-bottom: 40px;
+}
+.sec6 .texte p {
+  margin-bottom: 30px;
+}
+
+.header4 {
+  height: 50vh;
+  margin: 0 80px 80px 80px;
+}
+.header4 .headerDiv {
+  padding-top: 10%;
+}
+
+.sec7 .container input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 30px 0 30px 0;
+  width: 100%;
+  background-color: transparent;
+}
+.sec7 .container textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+}
+.sec7 .container button {
+  width: 100%;
+  border-radius: 0;
+  margin: 10px 0 0 0;
+}
+.sec7 .container img {
+  width: 100%;
+  height: 70vh;
+}
+
+footer {
+  height: 150px;
+  margin-top: 100px;
+}
+footer img {
+  width: 30%;
+}
